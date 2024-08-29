@@ -11,7 +11,7 @@ hero:
       link: /guide/
     - theme: alt
       text: GitHub
-      link: https://github.com/yourusername/anynote
+      link: https://github.com/ychisbest/AnyNote
   image:
     src: /rspress-icon.png
     alt: AnyNote Logo
