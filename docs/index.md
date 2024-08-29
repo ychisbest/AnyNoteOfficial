@@ -18,7 +18,7 @@ hero:
 
 features:
   - title: 多平台支持
-    details: 在任何设备上使用AnyNote,包括Windows、macOS、iOS和Android。
+    details: 在任何设备上使用AnyNote,包括Windows和Android。(macOS、iOS稍后支持)
     icon: 💻
   - title: 实时同步
     details: 您的笔记会自动同步到所有设备,确保您随时随地都能访问最新内容。
