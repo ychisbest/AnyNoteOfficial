@@ -10,7 +10,7 @@ hero:
       text: 快速开始
       link: /guide/
     - theme: alt
-      text: GitHub
+      text: Demo
       link: https://github.com/ychisbest/AnyNote
   image:
     src: /rspress-icon.png

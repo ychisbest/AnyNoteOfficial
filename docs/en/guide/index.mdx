@@ -1,0 +1,19 @@
+# Quick Start Guide
+
+## Start Service
+To start the AnyNote service, run the following Docker command:
+```bash
+docker run -d -p 8080:8080 -e secret=<your secret> -v <your data path>:/data ych8398527/anynote:1.0
+```
+After starting the service, you can access the AnyNote service interface by visiting `http://your_server_ip:8080`.
+
+## Install Client
+Download the AnyNote client compatible with your device from the [GitHub Releases](https://github.com/ychisbest/AnyNote/releases) page.
+
+## Configure Client
+1. Launch the AnyNote client.
+2. Enter your server address and secret string, then click the "Connect" button.
+<img src="/screenshot/loginpage.png" alt="loginpage" style={{ width: '350px', height: 'auto' }} />
+
+## Use AnyNote
+Now you can start using AnyNote for recording and managing!
