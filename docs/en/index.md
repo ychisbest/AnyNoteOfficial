@@ -10,8 +10,8 @@ hero:
       text: Get Started
       link: /guide/
     - theme: alt
-      text: GitHub
-      link: https://github.com/ychisbest/AnyNote
+      text: Demo
+      link: https://anynote.online/demo
   image:
     src: /rspress-icon.png
     alt: AnyNote Logo
