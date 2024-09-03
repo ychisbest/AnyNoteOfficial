@@ -3,36 +3,36 @@ pageType: home
 
 hero:
   name: AnyNote
-  text: Simple and Powerful Note-Taking App
-  tagline: Multi-platform synchronization, record your thoughts anytime, anywhere
+  text: Powerful Note-Taking App
+  tagline: Sync across platforms, note anytime
   actions:
     - theme: brand
-      text: Get Started
+      text: Start
       link: /guide/
     - theme: alt
       text: Demo
       link: https://anynote.online/demo
   image:
-    src: /rspress-icon.png
+    src: /screenshot/show.gif
     alt: AnyNote Logo
 
 features:
-  - title: Multi-platform Support
-    details: Use AnyNote on any device, including Windows and Android. (macOS, iOS support coming soon)
+  - title: Multi-platform
+    details: Windows, Android, and more coming soon
     icon: 💻
   - title: Real-time Sync
-    details: Your notes are automatically synced across all devices, ensuring you always have access to the latest content.
+    details: Access latest notes on all devices
     icon: 🔄
-  - title: Powerful Performance
-    details: Optimized backend ensures a smooth user experience even when handling a large number of notes.
+  - title: Fast Performance
+    details: Smooth experience with many notes
     icon: ⚡
-  - title: Intuitive Interface
-    details: A clean and feature-rich user interface makes note-taking effortless.
+  - title: Easy to Use
+    details: Clean, feature-rich interface
     icon: 🎨
-  - title: Offline Work
-    details: No internet connection? No problem! You can work offline and sync later.
+  - title: Work Offline
+    details: Note without internet, sync later
     icon: 🌐
-  - title: Secure and Reliable
-    details: End-to-end encryption ensures your notes are secure and only accessible to you.
-    icon: 🔒
+  - title: Self-hosted
+    details: Host your own server for complete control and privacy
+    icon: 🏠
 ---
