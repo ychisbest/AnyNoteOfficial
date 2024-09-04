@@ -10,10 +10,10 @@ hero:
       text: 开始使用
       link: /guide/
     - theme: alt
-      text: 演示
-      link: https://anynote.online/demo
+      text: Github
+      link: https://github.com/ychisbest/AnyNote
   image:
-    src: /screenshot/show.gif
+    src: /rspress-icon.png
     alt: AnyNote 标志
 
 features:
