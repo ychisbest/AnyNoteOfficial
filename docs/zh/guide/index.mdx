@@ -1,20 +1,32 @@
 # 快速开始指南
 
 ## 启动服务
+
 要启动 AnyNote 服务，请执行以下 Docker 命令：
+
 ```bash
-docker run -d -p 8080:8080 -e secret=<your secret> -v <your data path>:/data anynoteofficial/anynote:latest
+docker run -d -p 8080:8080 -e secret=<your_secret> -v <your_data_path>:/data anynoteofficial/anynote:latest
 ```
+
+### 命令解释：
+- `-p 8080:8080`: 将主机的8080端口映射到容器的8080端口。
+- `-e secret=<your_secret>`: 设置环境变量 `secret`，用于身份验证。
+- `-v <your_data_path>:/data`: 将主机的数据路径挂载到容器的 `/data` 目录。
+- `anynoteofficial/anynote:latest`: 使用的 Docker 镜像。
+
 启动服务后，您可以通过访问 `http://your_server_ip:8080` 来访问 AnyNote 服务界面。
 
 ## 安装客户端
+
 请从 [GitHub Releases](https://github.com/ychisbest/AnyNote/releases) 页面下载与您的设备兼容的 AnyNote 客户端。
 
 ## 配置客户端
+
 1. 启动 AnyNote 客户端。
-2. 输入您的服务器地址和 secret 字符串，然后点击“连接”按钮。
-<img src="/screenshot/loginpage.png" alt="loginpage" style={{ width: '350px', height: 'auto' }} />
+2. 输入您的服务器地址和 `secret` 字符串，然后点击“连接”按钮。
+
+<img src="/screenshot/loginpage.png" alt="loginpage" style={{ width: '350px', height: 'auto', boxShadow: '0 0 10px 0 rgba(0, 0, 0, 0.1)' }} />
 
 ## 使用 AnyNote
-现在您可以开始使用 AnyNote 进行记录和管理了！
 
+现在您可以开始使用 AnyNote 进行记录和管理了！

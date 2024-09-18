@@ -8,15 +8,16 @@ export default defineConfig({
       lang: 'en',
       // 导航栏切换语言的标签
       label: 'English',
-      title: 'Modern.js',
-      description: 'Modern.js 文档框架',
+      title: 'Anynote',
+      description: 'Anynote',
     },
     {
       lang: 'zh',
       // 导航栏切换语言的标签
       label: '简体中文',
-      title: 'Modern.js',
-      description: 'Rspress',
+      title: 'Anynote',
+      description: 'Anynote',
+
     },
   ],
 
