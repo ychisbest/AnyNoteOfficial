@@ -1,0 +1,51 @@
+# API Documentation
+
+## Get All Notes
+
+- **URL**: `https://your_server/api/notes`
+- **Method**: `GET`
+- **Header**:
+  - `x-secret`: `your secret`
+- **Response**:
+  ```json
+  [
+    {
+      "id": 0,
+      "isTopMost": true,
+      "content": "string",
+      "createTime": "2024-09-19T07:44:53.015Z",
+      "lastUpdateTime": "2024-09-19T07:44:53.015Z",
+      "archiveTime": "2024-09-19T07:44:53.015Z",
+      "isArchived": true,
+      "color": 0,
+      "index": 0
+    }
+  ]
+  ```
+
+## Create Note
+
+- **URL**: `https://your_server`
+- **Method**: `POST`
+- **Header**:
+  - `x-secret`: `your secret`
+- **Request Body**:
+  ```json
+  {
+    "content": "content"
+  }
+  ```
+- **Response**:
+  ```json
+  {
+    "id": 0,
+    "isTopMost": true,
+    "content": "string",
+    "createTime": "2024-09-19T07:44:53.015Z",
+    "lastUpdateTime": "2024-09-19T07:44:53.015Z",
+    "archiveTime": "2024-09-19T07:44:53.015Z",
+    "isArchived": true,
+    "color": 0,
+    "index": 0
+  }
+  ```
