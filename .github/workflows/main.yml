@@ -28,13 +28,13 @@ jobs:
         run: npm install
       - name: Build website
         run: npm run build
+      - name: Add Google AdSense code
+        run: |
+              sed -i '/<head>/a \    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9962529123137713" crossorigin="anonymous"></script>' doc_build/index.html
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
         with:
           path: 'doc_build' # 如果你的构建输出目录不是 doc_build，请修改这里
-      - name: Add Google AdSense code
-        run: |
-              sed -i '/<head>/a \    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9962529123137713" crossorigin="anonymous"></script>' doc_build/index.html
 
   deploy:
     environment:
