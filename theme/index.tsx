@@ -71,6 +71,16 @@ const Layout = () => (
                             </svg>
                         </a>
 
+                        <a
+                            href="https://gameoftruelove.com"
+                            target="_blank"
+                            className="text-gray-600 hover:text-gray-900 transition-colors duration-200 flex items-center gap-2 ml-4"
+                        >
+                            <span className="font-medium">game of true love</span>
+                            <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                            </svg>
+                        </a>
 
                         <a
                             href="https://coolnamemaker.com/tools/ship-name-generator"
